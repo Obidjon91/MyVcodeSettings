@@ -1,0 +1,68 @@
+{
+    "workbench.colorTheme": "Winter is Coming (Dark Blue)",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 1.1,
+    "editor.rulers": [
+        99
+    ],
+    "vscode_custom_css.imports": [
+        "file:///c:/Users/user/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
+    ],
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "workbench.startupEditor": "none",
+    "terminal.integrated.cursorBlinking": true,
+    "editor.cursorBlinking": "expand",
+    "glassit.alpha": 253,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Windows PowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "vsicons.dontShowNewVersionMessage": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "files.autoSave": "afterDelay",
+    "editor.minimap.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "workbench.editorAssociations": {
+        "*.pyc": "default"
+    },
+    "window.newWindowProfile": "По умолчанию",
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "google-translate.firstLanguage": "ru",
+    "google-translate.secondLanguage": "en",
+    "google-translate.maxSizeOfResult": 50,
+    "dart.flutterSdkPath": "C:\\flutter\\flutter",
+    "redhat.telemetry.enabled": true
+}
